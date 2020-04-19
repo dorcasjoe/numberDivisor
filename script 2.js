@@ -1,7 +1,7 @@
 let output = [];
 
 const numberDivisor = (number) => {
-  for (let i=0;i<=number;i++){
+  for (let i=1;i<=number;i++){
     if (i%2==0 && i%3==0 && i%5==0) {
       output = [...output, 'yu-gi-oh'];
     } else if (i%2==0 && i%5==0) {
